@@ -7,9 +7,11 @@ import WorkWithMe from "./WorkWithMe";
 
 function Home() {
     return (
-        <div className="opener">
-            <Navbar />
-            <HomeHero />
+        <div className="body-3">
+            <div className="opener">
+                <Navbar />
+                <HomeHero />
+            </div>
             <HomeBody />
             <WorkWithMe />
             <Footer />

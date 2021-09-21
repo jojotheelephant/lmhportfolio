@@ -10,8 +10,8 @@ function WorkWithMe() {
                     t_g_th_r
                     <br />
                 </div>
-                <a href="mailto:lindsaymhsieh@gmail.com" target="_blank" className="link-7" rel="noreferrer">
-                    lindsaymhsieh@gmail.com
+                <a href="mailto:lindsay.m.hsieh@gmail.com " target="_blank" className="link-7" rel="noreferrer">
+                    lindsay.m.hsieh@gmail.com
                 </a>
             </div>
         </div>

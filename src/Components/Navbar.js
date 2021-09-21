@@ -12,12 +12,12 @@ function Navbar() {
                 </div>
                 <div className="menu">
                     <a
-                        href="mailto:lindsaymhsieh@gmail.com"
+                        href="mailto:lindsay.m.hsieh@gmail.com"
                         target="_blank"
                         rel="noreferrer"
                         className="nav-link marker"
                     >
-                        lindsayhsieh@gmail.com
+                        lindsay.m.hsieh@gmail.com
                     </a>
                 </div>
             </div>

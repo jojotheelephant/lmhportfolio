@@ -6,12 +6,12 @@ function Footer() {
             <div className="footer-inner">
                 <div className="div-block-9">
                     <a
-                        href="mailto:lindsaymhsieh@gmail.com"
+                        href="mailto:lindsay.m.hsieh@gmail.com "
                         className="footer-link marker"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        lindsaymhsieh@gmail.com
+                        lindsay.m.hsieh@gmail.com
                     </a>
                 </div>
                 <div className="div-block-9">
