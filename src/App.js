@@ -3,19 +3,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import SolidStart from "./Components/SolidStart";
 import DesktopUsers from "./Components/DesktopUsers";
-import Navbar from "./Components/Navbar";
-import HomeHero from "./Components/HomeHero";
 
 function App() {
     return (
         <Router>
             <div>
-                {/* Navbar */}
-                <div className="opener">
-                    <Navbar />
-                    <HomeHero />
-                </div>
-
+                {/* PAGES */}
                 <Switch>
                     <Route path="/solid-start">
                         <SolidStart />
