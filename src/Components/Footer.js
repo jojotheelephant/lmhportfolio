@@ -15,7 +15,12 @@ function Footer() {
                     </a>
                 </div>
                 <div className="div-block-9">
-                    <a href="https://www.linkedin.com/in/lindsay-hsieh-45aaa720b/" className="footer-link marker">
+                    <a
+                        href="https://www.linkedin.com/in/lindsay-hsieh-45aaa720b/"
+                        className="footer-link marker"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         LinkedIn
                     </a>
                 </div>
