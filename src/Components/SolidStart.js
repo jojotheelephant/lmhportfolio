@@ -1,7 +1,33 @@
 import React from "react";
+import PageRows from "./PageRows";
 import Navbar from "./Navbar";
+import PageHero from "./PageHero";
+import { NavBarScroll } from "./utils/NavBarScroll";
+
+const PageInfo = [
+    // Hero
+    {
+        title: "Research Refined for a Solid Start(up)",
+        subtitle: "Streamlining booking and building trust with users to give a new business a competitive edge.",
+    },
+    // Rows
+    {
+        client: "Fly UX - UX Design Institute Project",
+        sector: "Travel",
+        role: [
+            "Entire product design from beginning to end",
+            "Research including surveys, researching competitors and usability testing.",
+            "Presenting research and running an affinity diagramming session with a volunteer.",
+            "Analysis including competitive analysis, journey mapping, and affinity diagramming.",
+            "Design including information architecture, selecting brand aesthetics, redesign of logo, paper prototyping, prototyping in Figma and wireframing with developer notes.",
+        ],
+        time: "4 months (2 months ahead of schedule)",
+    },
+];
 
 function SolidStart() {
+    NavBarScroll();
+
     return (
         <div className="solid-start">
             {/* Navigation */}
@@ -10,45 +36,10 @@ function SolidStart() {
             </div>
 
             {/* Hero */}
-            <div className="opener-image jka">
-                <div className="div-block-15">
-                    <h1 className="project-title">Research Refined for a Solid Start(up)</h1>
-                    <div className="project-subtitle">
-                        Streamlining booking and building trust with users to give a new business a competitive edge.
-                    </div>
-                </div>
-            </div>
+            <PageHero PageInfo={PageInfo} />
 
             {/* Body */}
-            <div className="site-wrapper">
-                <div className="div-block-16">
-                    <div className="row">
-                        <div className="attribute">Client</div>
-                        <div>Fly UX - UX Design Institute Project</div>
-                    </div>
-                    <div className="row">
-                        <div className="attribute">Sector</div>
-                        <div>Travel</div>
-                    </div>
-                    <div className="row">
-                        <div className="attribute">My Role</div>
-                        <ul className="unordered-list">
-                            <li>Entire product design from beginning to end</li>
-                            <li>Research including surveys, researching competitors and usability testing.</li>
-                            <li>Presenting research and running an affinity diagramming session with a volunteer.</li>
-                            <li>Analysis including competitive analysis, journey mapping, and affinity diagramming.</li>
-                            <li>
-                                Design including information architecture, selecting brand aesthetics, redesign of logo,
-                                paper prototyping, prototyping in Figma and wireframing with developer notes.
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="row">
-                        <div className="attribute">Project Time</div>
-                        <div>4 months (2 months ahead of schedule)</div>
-                    </div>
-                </div>
-            </div>
+            <PageRows PageInfo={PageInfo} />
         </div>
     );
 }
